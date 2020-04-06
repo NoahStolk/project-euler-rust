@@ -1,0 +1,13 @@
+# Rust.editorconfig 2020-04-06
+root = true
+
+# All files
+[*]
+insert_final_newline = true
+indent_style         = tab
+
+# Code files for Rust
+[*.{rs,toml}]
+charset                  = utf-8-bom
+indent_size              = 4
+trim_trailing_whitespace = true
